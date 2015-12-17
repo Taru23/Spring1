@@ -1,7 +1,7 @@
 package core.personas;
 
-import core.Performer;
-import core.Poema;
+import core.Interfaces.Performer;
+import core.Interfaces.Poema;
 
 /**
  * Created by Jesús on 16/12/2015.

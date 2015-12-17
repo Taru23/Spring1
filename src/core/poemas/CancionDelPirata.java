@@ -1,6 +1,6 @@
 package core.poemas;
 
-import core.Poema;
+import core.Interfaces.Poema;
 
 /**
  * Created by Jesús on 16/12/2015.

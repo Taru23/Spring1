@@ -1,6 +1,6 @@
 package core.personas;
 
-import core.Poema;
+import core.Interfaces.Poema;
 
 /**
  * Created by Jesús on 16/12/2015.
@@ -13,7 +13,6 @@ public class Poetisa extends Juggler {
     public Poetisa(int beanBags, Poema poema){
         super(beanBags);
         this.poema = poema;
-
     }
     public void perform() throws Exception{
         super.perform();
