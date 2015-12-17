@@ -5,7 +5,8 @@ package core.objetos;
  */
 public class Stage {
     private Stage(){ // constructor privado -> ver singleton model.
-        System.out.println("Se ha creado el objeto de la clase Stage");
+
+        //System.out.println("Se ha creado el objeto de la clase Stage");
     }
     private static class StageSingletonHolder{
         static Stage instancia = new Stage();

@@ -12,7 +12,7 @@ public class Launcher {
     public static void main( String args[] ){
 
         ApplicationContext ctx = new ClassPathXmlApplicationContext("/spring-config.xml");
-        Performer performer = (Performer) ctx.getBean("Chopen");
+        Performer performer = (Performer) ctx.getBean("mozzard");
         try {
             performer.perform();
         } catch (Exception e) {

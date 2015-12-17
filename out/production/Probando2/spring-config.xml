@@ -5,10 +5,15 @@
        <bean id="imitador" class="core.personas.Juggler" > <!-- Esto es como crear un objeto de tipo Juggler llamado imitador -->
               <constructor-arg value="15"></constructor-arg>
        </bean>
-       <bean id="Espronceda" class="core.personas.Poetisa">
-              <constructor-arg value="15"/>
-              <constructor-arg ref="CancionDelPirata"/>
+       <bean id="mozzard" class="core.personas.Musico">
+              <property name="cancion" value="Cancion del claro de la Luna" ></property>
+              <property name="instrumento">
+                     <bean id="piano" class="core.objetos.Piano"></bean>
+              </property>
        </bean>
        <bean id="CancionDelPirata" class="core.poemas.CancionDelPirata"/>
+
+       <bean id="Stage" class="core.objetos.Stage" factory-method="getInstance"/>
+
 
 </beans>
